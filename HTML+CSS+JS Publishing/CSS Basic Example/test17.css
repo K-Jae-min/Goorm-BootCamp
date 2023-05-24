@@ -1,0 +1,68 @@
+.parent {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  margin-bottom: 50px;
+}
+
+.child1 {
+  position: absolute;
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+}
+
+.child2 {
+  position: absolute;
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}
+
+.child3 {
+  position: absolute;
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+}
+
+.child4 {
+  position: absolute;
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  right: 0;
+}
+
+.child5 {
+  position: absolute;
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent1 {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  border: 1px solid black;
+}
+
+.children {
+  position: absolute;
+  background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

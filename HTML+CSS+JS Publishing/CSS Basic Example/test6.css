@@ -1,0 +1,23 @@
+body {
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-weight: normal;
+  color: royalblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+p.text {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p.copy {
+  text-align: center;
+  text-transform: capitalize;
+}

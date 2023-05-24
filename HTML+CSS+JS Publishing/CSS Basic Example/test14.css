@@ -1,0 +1,73 @@
+.parent {
+  border: 5px solid red;
+  width: 600px;
+  /* height: 200px; */
+  overflow: hidden;
+  /* text-align: center; */
+  margin-bottom: 50px;
+}
+
+.child {
+  background-color: gold;
+  width: 200px;
+  height: 200px;
+  display: block;
+  /* float: left; */
+  margin: auto;
+}
+
+.father {
+  border: 5px solid red;
+  width: 600px;
+  margin-bottom: 50px;
+}
+.top {
+  background-color: purple;
+  height: 50px;
+}
+.left {
+  background-color: skyblue;
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+.right {
+  background-color: rgb(255, 174, 144);
+  height: 100px;
+  width: 400px;
+  float: right;
+}
+.clear {
+  background-color: purple;
+  height: 50px;
+  clear: both;
+}
+
+/* section {
+  border: 5px solid black;
+  width: 600px;
+  overflow: hidden;
+}
+
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  float: left;
+  border: 1px solid red;
+  box-sizing: border-box;
+} float와 overflow를 이용한 배치 */
+
+section {
+  border: 5px solid black;
+  text-align: center;
+}
+
+section article {
+  background-color: gold;
+  width: 200px;
+  height: 100px;
+  border: 1px solid red;
+  display: inline-block;
+}
+/* display: inline-block을 이용한배치 */

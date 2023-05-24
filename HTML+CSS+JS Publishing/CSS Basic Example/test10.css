@@ -1,0 +1,6 @@
+.heading {
+  border: 1px solid red;
+  width: 300px;
+  text-align: center;
+  padding: 50px 100px 200px 300px;
+}
