@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>제이쿼리 실습</title>
+    <style>
+      .menu {
+        padding: 0;
+        list-style: none;
+        width: 200px;
+        /* border: 1px solid red; */
+        text-align: center;
+      }
+      .menu li > a {
+        background-color: #000;
+        color: #fff;
+        display: block;
+        padding: 5px;
+      }
+      .sub-menu {
+        border: 1px solid black;
+        display: none;
+      }
+      .sub-menu a {
+        display: block;
+        padding: 5px;
+      }
+    </style>
+    <link rel="stylesheet" href="../CSS Example/jQuery3.css" />
+  </head>
+  <body>
+    <ul class="menu">
+      <li>
+        <a href="#none">MENU-1</a>
+        <div class="sub-menu">
+          <a href="#none">SUB-MENU-1</a>
+          <a href="#none">SUB-MENU-2</a>
+          <a href="#none">SUB-MENU-3</a>
+          <a href="#none">SUB-MENU-4</a>
+        </div>
+      </li>
+      <li>
+        <a href="#none">MENU-2</a>
+        <div class="sub-menu">
+          <a href="#none">SUB-MENU-1</a>
+          <a href="#none">SUB-MENU-2</a>
+          <a href="#none">SUB-MENU-3</a>
+          <a href="#none">SUB-MENU-4</a>
+        </div>
+      </li>
+    </ul>
+    <script src="../Script/jquery-1.12.4.js"></script>
+    <script src="../Script/jQuery3.js"></script>
+  </body>
+</html>

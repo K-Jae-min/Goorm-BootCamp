@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>제이쿼리 메서드</title>
+    <link rel="stylesheet" href="../CSS Example/jQuery2.css" />
+    <style>
+      .container1 {
+        width: 300px;
+        margin-bottom: 50px;
+      }
+      a {
+        background-color: #ddd;
+        color: #000;
+        text-decoration: none;
+        padding: 5px;
+        width: 70px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .container1 div {
+        background-color: dodgerblue;
+        width: 250px;
+        height: 300px;
+        margin-top: 10px;
+        color: #fff;
+        text-align: center;
+        line-height: 300px;
+        display: none;
+      }
+      .container2 {
+        width: 300px;
+        margin-bottom: 50px;
+      }
+      a {
+        background-color: #ddd;
+        color: #000;
+        text-decoration: none;
+        padding: 5px;
+        width: 70px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .container2 div {
+        background-color: dodgerblue;
+        width: 250px;
+        height: 300px;
+        margin-top: 10px;
+        color: #fff;
+        text-align: center;
+        line-height: 300px;
+        /* display: none; */
+      }
+      .container2 div.active {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container1">
+      <a class="show-btn" href="#none">보이기</a>
+      <a class="hide-btn" href="#none">감추기</a>
+      <a class="toggle1-btn" href="#none">토글</a>
+      <div>Box1</div>
+    </div>
+    <div class="container2">
+      <a class="add-btn" href="#none">넣기</a>
+      <a class="remove-btn" href="#none">빼기</a>
+      <a class="toggle2-btn" href="#none">토글</a>
+      <div class="active">Box2</div>
+    </div>
+    <script src="../Script/jquery-1.12.4.js"></script>
+    <script src="../Script/jQuery2.js"></script>
+  </body>
+</html>
