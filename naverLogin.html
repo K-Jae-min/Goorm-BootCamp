@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>네이버 : 로그인</title>
+    <link rel="stylesheet" href="./naverLogin.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="header">
+        <div class="sel_lnag">
+          <select name="lang" id="lnag_select">
+            <option value="#none">한국어</option>
+            <option value="#none">English</option>
+            <option value="#none">日本語</option>
+            <option value="#none">中國語</option>
+          </select>
+        </div>
+        <div class="banner_logo">
+          <a class="logo" href="#none">
+            <img src="./HTML+CSS+JS Publishing/images/Naver Logo.png" />
+          </a>
+        </div>
+      </header>
+      <div class="content">
+        <ul class="pick_wrap">
+          <li>ID 로그인</li>
+          <li>일회용 번호</li>
+          <li>QR코드</li>
+        </ul>
+        <div class="loginbox">
+          <input type="id" placeholder="아이디" />
+          <input type="password" placeholder="비밀번호" />
+          <div class="login_check">
+            <div class="keep">
+              <div class="keep"><input type="checkbox" name="keep_check" /> <label for="keep_check">로그인 상태 유지</label></div>
+            </div>
+            <div class="sc_check">
+              IP보안
+              <input type="checkbox" id="toggle" />
+              <label for="toggle" class="toggleSwitch">
+                <span class="toggleButton"></span>
+              </label>
+            </div>
+          </div>
+          <button class="btn_login">로그인</button>
+        </div>
+        <ul class="find_wrap" id="find_wrap">
+          <li><a target="_blank" href="#none" class="find_text">비밀번호 찾기</a></li>
+          <li><a target="_blank" href="#none" class="find_text">아이디 찾기</a></li>
+          <li><a target="_blank" href="#none" class="find_text">회원가입</a></li>
+        </ul>
+        <img src="./HTML+CSS+JS Publishing/images/JJanggu.png" class="banner_ad" />
+      </div>
+      <footer class="footer">
+        <div class="footer_inner">
+          <ul class="footer_link" id="footer_link">
+            <li>
+              <a target="_blank" class="footer_item" href="#none" id="fot.agreement"><span class="text">이용약관</span></a>
+            </li>
+            <li>
+              <a target="_blank" class="footer_item" href="#none" id="fot.privacy"
+                ><span class="text"><strong>개인정보처리방침</strong></span></a
+              >
+            </li>
+            <li>
+              <a target="_blank" class="footer_item" href="#none" id="fot.disclaimer"><span class="text">책임의 한계와 법적고지</span></a>
+            </li>
+            <li>
+              <a target="_blank" class="footer_item" href="#none" id="fot.help"><span class="text">회원정보 고객센터</span></a>
+            </li>
+          </ul>
+          <div class="footer_copy">
+            <a id="fot.naver" target="_blank" href="#none">
+              <img src="./HTML+CSS+JS Publishing/images/Naver Logo.png" class="footer_logo" /><span class="blind">네이버</span>
+            </a>
+            <span class="text">Copyright</span>
+            <span class="corp">© NAVER Corp.</span>
+            <span class="text">All Rights Reserved.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
